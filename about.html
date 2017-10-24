@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>Bootstrap使用</title>
+		<link rel="stylesheet" type="text/css" href="lib/bootstrap.min.css" />
+		<style type="text/css">
+			body {
+				background-color: rgb(238, 238, 238);
+			}
+			
+			.thumbnail p {
+				text-indent: 2em;
+			}
+			
+			#nav-a a {
+				color: rgb(104, 104, 104);
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<!--导航栏-->
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+					<a class="navbar-brand" href="#"><img src="img/logo.png" style="margin-left:40px;width: 150px;" /></a>
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="home.html"><span class="glyphicon glyphicon-home"></span>首页</a>
+						</li>
+						<li>
+							<a href="product.html"><span class="glyphicon glyphicon-align-left"></span>资讯</a>
+						</li>
+						<li>
+							<a href="example.html"><span class="glyphicon glyphicon-save"></span>案例</a>
+						</li>
+						<li class="active">
+							<a href="about.html"><span class="glyphicon glyphicon-scale"></span>关于</a>
+						</li>
+					</ul>
+				</div>
+				<!-- /.navbar-collapse -->
+			</div>
+			<!-- /.container-fluid -->
+		</nav>
+
+		<!--巨幕-->
+		<div class="row container-fluid ">
+			<div class="col-md-12 " style="background: url(img/bg.jpg);background-size: cover;color: rgb(188,188,188);padding: 20px;margin-top: -17px;">
+				<div>
+					<h2 style="margin-left: 20px;">关于我们</h2>
+					<p style="margin-left: 20px;">Bootstrap中文网 -- www.bootcss.com 创建于2012年。起因是国内没有较好的关于Bootstrap的中文教程和交流渠道，因此，我们对Bootstrap的文档进行了翻译整理，并且建立了QQ群和微博（@bootcss），方便更多热爱这个CSS框架的攻城师们分享、交流自己在前端设计、开发方面的心得。</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" style="margin-top: 30px;">
+			<div class="row">
+				<!--侧边导航栏-->
+
+				<div class="col-md-3 hidden-sm hidden-xs ">
+					<ul class="nav nav-pills nav-stacked" style="background-color: white;" id="nav-a">
+						<li role="presentation">
+							<a href="#">1.关于我们</a>
+						</li>
+						<li role="presentation">
+							<a href="#">2.加入我们</a>
+						</li>
+						<li role="presentation">
+							<a href="#">3.联系方式</a>
+						</li>
+						<li role="presentation">
+							<a href="#">4.媒体报道</a>
+						</li>
+						<li role="presentation">
+							<a href="#">5.最新资讯</a>
+						</li>
+					</ul>
+				</div>
+
+				<!--内容介绍-->
+				<div class="col-md-8 " style="padding: 20px; background-color: white;color: rgb(104,104,104);font-size: 11px;line-height: 25px;">
+					<div class="media">
+						<div class="media-body">
+							<h4 class="media-heading" style="padding: 20px 0px;border-bottom: 1px solid rgb(238,238,238);" ">加入我们</h4> Bootstrap中文网致力于前端开发推广，坚持分享、开放的互联网精神，旨在为广大前端攻城师、设 计师提供交流的平台，如果你和我们有相同的目标，我们乐意一起携手前行。 如果你也热爱前端开发、热爱 Bootstrap，有一颗创业的心，欢迎和我们联系，更欢迎你加入我们 的团队！ Mail: admin@bootcss.com
+						</div>
+					</div>
+                    <div class="media ">
+						<div class="media-body ">
+							<h4 class="media-heading " style="padding: 20px 0px;border-bottom: 1px solid rgb(238,238,238); ">加入我们</h4> Bootstrap中文网致力于前端开发推广，坚持分享、开放的互联网精神，旨在为广大前端攻城师、设 计师提供交流的平台，如果你和我们有相同的目标，我们乐意一起携手前行。 如果你也热爱前端开发、热爱 Bootstrap，有一颗创业的心，欢迎和我们联系，更欢迎你加入我们 的团队！ Mail: admin@bootcss.com
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--底部-->
+		<div class="row container-fluid " style="text-align: center; ">
+			<div class="col-md-12 ">
+				<div style="color:rgb(103,103,103);border-top: 1px solid silver; margin-top: 30px;height: 70px;line-height: 30px;box-sizing: border-box; ">
+					<div style="padding-left: 40px; ">
+						<span>企业培训 &nbsp;|</span>
+						<span>合作事宜 &nbsp;|</span>
+						<span>版权投诉</span>
+					</div>
+					<p>京ICP 备12345678. ? 2009-2016 Bootstrap教程. Powered by Bootstrap.</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	<script src="lib/jquery.min.js " type="text/javascript " charset="utf-8 "></script>
+	<script src="lib/bootstrap.min.js " type="text/javascript " charset="utf-8 "></script>
+
+</html>
